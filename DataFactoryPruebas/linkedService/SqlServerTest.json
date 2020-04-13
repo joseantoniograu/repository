@@ -1,0 +1,16 @@
+{
+	"name": "SqlServerTest",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=achmdw-01;initial catalog=PRETestingDWH;user id=GFI3",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJiMmU0NDg2ZS0xMjVjLTQyZTQtYWUwNy02OGFmM2JkN2ZlOWIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

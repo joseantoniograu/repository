@@ -1,0 +1,16 @@
+{
+	"name": "SqlServerGESPRA",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=achmweb-01;initial catalog=Gespra;user id=GFI3",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI3ZjFkMmEzOS02OGQyLTQ5NjctYjQzYy05ZmM2MDkwNDk5ZTAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
