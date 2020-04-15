@@ -1,0 +1,19 @@
+{
+	"name": "integrationRuntimeSSIS",
+	"properties": {
+		"type": "Managed",
+		"description": "pruebaSSIS",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "West Europe",
+				"nodeSize": "Standard_D4_v3",
+				"numberOfNodes": 2,
+				"maxParallelExecutionsPerNode": 4
+			},
+			"ssisProperties": {
+				"edition": "Standard",
+				"licenseType": "LicenseIncluded"
+			}
+		}
+	}
+}
